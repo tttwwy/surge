@@ -1,0 +1,7 @@
+#!name=去额外开屏广告
+#!desc=去额外开屏广告
+
+[Rule]
+DOMAIN-SUFFIX,im-x.jd.com,REJECT
+DOMAIN-SUFFIX,api.taou.com,REJECT
+DOMAIN-SUFFIX,adashx.m.taobao.com,REJECT
