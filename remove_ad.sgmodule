@@ -5,7 +5,8 @@
 DOMAIN-SUFFIX,im-x.jd.com,REJECT
 DOMAIN-SUFFIX,api.taou.com,REJECT
 DOMAIN-SUFFIX,adashx.m.taobao.com,REJECT
-DOMAIN-SUFFIX,cube.elemecdn.com,REJECT
+
+# DOMAIN-SUFFIX,cube.elemecdn.com,REJECT
 
 # 爱奇艺
 DOMAIN,cr-status.iqiyi.com,REJECT
@@ -100,9 +101,10 @@ DOMAIN,googleads4.g.doubleclick.net,REJECT
 ^https:\/\/mbd\.baidu\.com\/newspage\/api\/getmobads\?page\=landingshare - reject
 
 # 腾讯视频广告屏蔽
-^http:\/\/video\.dispatch\.tc\.qq\.com\/.+\.mp4 - reject
-^http:\/\/.+\/vmind\.qqvideo\.tc\.qq\.com\/.+\.mp4 - reject
-^http:\/\/wa\.gtimg\.com\/adxcdn\/.+\.jpg - reject
+# ^http:\/\/video\.dispatch\.tc\.qq\.com\/.+\.mp4 - reject
+# ^http:\/\/.+\/vmind\.qqvideo\.tc\.qq\.com\/.+\.mp4 - reject
+# ^http:\/\/wa\.gtimg\.com\/adxcdn\/.+\.jpg - reject
+
 # 爱奇艺广告屏蔽
 ^http:\/\/.+\.iqiyipic\.com\/image\/.+\/ad\/.+\.jpg - reject
 ^http:\/\/static-s\.iqiyi\.com\/common\/.+\/Small_video/a2/af/.+\.png - reject
