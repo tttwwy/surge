@@ -8,6 +8,7 @@ DOMAIN-SUFFIX,adashx.m.taobao.com,REJECT
 
 # DOMAIN-SUFFIX,cube.elemecdn.com,REJECT
 
+
 # 爱奇艺
 DOMAIN,cr-status.iqiyi.com,REJECT
 DOMAIN,f74f7f7765f8a2f6.ngaa.net.cn,REJECT
@@ -32,7 +33,7 @@ URL-REGEX,^https:\/\/apiwz\.midukanshu\.com\/config\/getAds$,REJECT
 DOMAIN,bid.adview.cn,REJECT
 
 # 京东开屏广告屏蔽
-URL-REGEX,https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=start$,REJECT-TINYGIF
+URL-REGEX,^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=start$,REJECT-TINYGIF
 
 # 优酷去片头广告(by Choler)
 # force-http-engine-hosts = %APPEND% *.cp31.ott.cibntv.net
@@ -203,6 +204,7 @@ http:\/\/analytics\.163\.com\/ntes - reject
 ^http:\/\/(www.)?aicoin\.cn\/$ https://www.aicoin.com/ 302
 
 [Script]
+彩云天气 = type=http-response,pattern=https://biz.caiyunapp.com/v2/user\?app_name=weather,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/nzw9314/Surge/master/Script/caiyun.js
 # 微信公众号广告屏蔽(By Choler)
 微信公众号广告屏蔽=type=http-response,pattern=^https?:\/\/mp\.weixin\.qq\.com\/mp\/getappmsgad,requires-body=1,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/Wechat.js
 # 微博广告屏蔽(by yichahucha)
