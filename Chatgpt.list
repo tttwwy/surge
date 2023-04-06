@@ -1,4 +1,8 @@
 # 国外
 
-DOMAIN-SUFFIX,openai.com
+DOMAIN-KEYWORD,openai
 DOMAIN-SUFFIX,auth0.com
+DOMAIN-SUFFIX,http://openai.com
+DOMAIN-SUFFIX,http://openaiapi-site.azureedge.net
+DOMAIN-SUFFIX,http://identrust.com
+DOMAIN-SUFFIX,http://auth0.com
