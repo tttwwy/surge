@@ -1,2 +1,4 @@
 # 国外
-DOMAIN-KEYWORD,openai.com
+
+DOMAIN-SUFFIX,openai.com
+DOMAIN-SUFFIX,auth0.com
