@@ -9,6 +9,7 @@
 
 [Rule]
 DOMAIN-KEYWORD,bytedance,DIRECT
+DOMAIN-KEYWORD,zijieapi,DIRECT
 DOMAIN-SUFFIX,im-x.jd.com,REJECT
 DOMAIN-SUFFIX,api.taou.com,REJECT
 DOMAIN-SUFFIX,adashx.m.taobao.com,REJECT
