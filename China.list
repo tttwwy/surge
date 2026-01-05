@@ -11,3 +11,15 @@ DOMAIN-KEYWORD,steampowered.com
 DOMAIN-KEYWORD,zoom.us
 DOMAIN-KEYWORD,larkoffice
 DOMAIN-KEYWORD,bytedance
+# 飞书核心域名直连
+DOMAIN-SUFFIX,feishu.cn
+DOMAIN-SUFFIX,larksuite.com
+DOMAIN-SUFFIX,larksuite.com.cn
+DOMAIN-SUFFIX,volcengine.com
+DOMAIN-SUFFIX,byteimg.com
+DOMAIN-SUFFIX,bytecss.com
+
+# 飞书IP段直连（覆盖API与会议服务器）
+IP-CIDR,106.225.0.0/16
+IP-CIDR,47.91.0.0/16
+IP-CIDR,8.210.0.0/16
