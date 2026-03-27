@@ -7,4 +7,6 @@ DOMAIN-SUFFIX,openaiapi-site.azureedge.net
 DOMAIN-SUFFIX,identrust.com
 DOMAIN-SUFFIX,auth0.com
 DOMAIN-SUFFIX,sentry.io
-DOMAIN-SUFFIX,claude.ai
+DOMAIN-KEYWORD,claude.ai
+DOMAIN-KEYWORD,cdn.usefathom.com
+DOMAIN-KEYWORD,anthropic.com
